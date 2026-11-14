@@ -1,0 +1,30 @@
+{
+  "name": "signature-stones-lead-agent",
+  "version": "1.0.0",
+  "description": "Multi-agent autonomous B2B lead discovery, WhatsApp sales bot, and Virtual Office Dashboard for Signature Stones Uganda",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dashboard": "node server.js",
+    "scrape": "node construction_sniper.js",
+    "bot": "node whatsapp_agent.js"
+  },
+  "keywords": [
+    "natural-stones",
+    "wall-cladding",
+    "whatsapp-agent",
+    "lead-generation",
+    "virtual-office-dashboard",
+    "uganda-construction"
+  ],
+  "author": "Signature Stones Uganda & AI Workflow",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "nodemailer": "^10.5.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signature Stones Uganda — Agent Office</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- CLEAN MINIMAL HEADER (No neon glow badges or noisy clutter) -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">SS</div>
+      <div>
+        <div class="brand-title">Signature Stones Uganda</div>
+        <div class="brand-sub">
+          Autonomous B2B &amp; WhatsApp Sales Office •
+          <a href="https://www.tiktok.com/@signaturestonesuganda" target="_blank" rel="noopener">@signaturestonesuganda</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-meta">
+      <div class="shift-indicator" id="shiftIndicator">
+        <span class="shift-dot" id="shiftDot"></span>
+        <span id="shiftLabel">Auto-Running • Active Work Shift</span>
+      </div>
+      <div class="header-numbers" onclick="openSettingsModal()" title="Click to edit phone numbers, WhatsApp QR, or Gmail">
+        <span>Dispatcher: <strong id="topDispatcherPhone">Not set</strong> <em id="waConnBadge">1-Click / QR</em></span>
+        <span class="sep">|</span>
+        <span>Manager: <strong id="topManagerPhone">Not set</strong></span>
+        <span class="sep">|</span>
+        <span>Email: <strong id="topSmtpEmail">Not set</strong></span>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <button class="btn btn-primary" onclick="openSettingsModal()">
+        Settings &amp; WhatsApp QR
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN WORKSPACE: BIG 2D PIXEL OFFICE FLOORPLAN + GRACE WHATSAPP ASSISTANT -->
+  <main class="main-grid">
+    <!-- LEFT: FULL 2D PIXEL-ART WORKFLOOR (With Showroom, Desks 1-4, Printer, Staff Lounge, Boardroom & Boss Suite) -->
+    <section class="office-panel">
+      <div class="pixel-canvas-wrap">
+        <canvas id="pixelOfficeCanvas" width="1240" height="640"></canvas>
+      </div>
+
+      <!-- COMPACT DESK STATUS BAR UNDER THE FLOORPLAN -->
+      <div class="desk-strip">
+        <div class="desk-cell" onclick="triggerScout()" title="Click to trigger Sarah scouting">
+          <div class="desk-cell-top">
+            <span class="dot dot-purple"></span>
+            <strong>Desk 1 • Sarah (Scout)</strong>
+            <span class="desk-metric" id="kpiTotalLeads">0</span>
+          </div>
+          <span class="desk-cell-sub" id="status-sarah">Scouting Kampala sites</span>
+        </div>
+
+        <div class="desk-cell" onclick="triggerDispatch()" title="Click to trigger David WhatsApp pitches">
+          <div class="desk-cell-top">
+            <span class="dot dot-green"></span>
+            <strong>Desk 2 • David (WhatsApp)</strong>
+            <span class="desk-metric" id="kpiWaPitched">0</span>
+          </div>
+          <span class="desk-cell-sub"><span id="kpiWaNew">0</span> new • <span id="status-david">Active</span></span>
+        </div>
+
+        <div class="desk-cell" onclick="triggerEmail()" title="Click to trigger Emma B2B emails">
+          <div class="desk-cell-top">
+            <span class="dot dot-blue"></span>
+            <strong>Desk 3 • Emma (Email)</strong>
+            <span class="desk-metric" id="kpiEmailTotal">0</span>
+          </div>
+          <span class="desk-cell-sub"><span id="kpiEmailSent">0</span> sent • <span id="kpiEmailNew">0</span> queued</span>
+        </div>
+
+        <div class="desk-cell" onclick="focusSimulator()" title="Click to test Grace's replies">
+          <div class="desk-cell-top">
+            <span class="dot dot-teal"></span>
+            <strong>Desk 4 • Grace (Assistant)</strong>
+            <span class="desk-metric" id="kpiActiveChats">0</span>
+          </div>
+          <span class="desk-cell-sub" id="status-grace">Replying to clients</span>
+        </div>
+
+        <div class="desk-cell" onclick="openSettingsModal()" title="Click to configure Boss number">
+          <div class="desk-cell-top">
+            <span class="dot dot-gold"></span>
+            <strong id="deskManagerName">Desk 5 • Manager</strong>
+            <span class="desk-metric" id="kpiHotDeals">0</span>
+          </div>
+          <span class="desk-cell-sub" id="status-manager">Executive Suite</span>
+        </div>
+      </div>
+
+      <!-- LIVE OFFICE ACTIVITY LOG -->
+      <div class="office-ticker">
+        <div class="ticker-title">ACTIVITY</div>
+        <div class="ticker-list" id="officeLogs"></div>
+      </div>
+    </section>
+
+    <!-- RIGHT: GRACE (COMPANY ASSISTANT) WHATSAPP CHAT & SIMULATOR -->
+    <aside class="chat-panel">
+      <div class="wa-header">
+        <div class="wa-header-left">
+          <div class="wa-avatar-clean">G</div>
+          <div>
+            <div class="wa-title">Grace — Company Assistant</div>
+            <div class="wa-subtitle">WhatsApp Assistant • Handles Sarah &amp; David's Leads</div>
+          </div>
+        </div>
+        <div class="wa-header-actions">
+          <button class="btn-wa-small" onclick="seedDavidPitch()">
+            Show David's Pitch
+          </button>
+          <button class="btn-wa-small btn-wa-danger" onclick="resetSimulatorChat()">
+            Reset Chat
+          </button>
+        </div>
+      </div>
+
+      <!-- CLIENT SELECTOR -->
+      <div class="wa-lead-bar">
+        <label for="simLeadSelect">Client Thread:</label>
+        <select id="simLeadSelect" onchange="onSelectSimLead()"></select>
+      </div>
+
+      <!-- QUICK TEST SCENARIO CHIPS -->
+      <div class="wa-chips">
+        <span class="chips-label">Quick Test:</span>
+        <button class="chip" onclick="sendQuickChat('which stone do u have')">"which stone do u have"</button>
+        <button class="chip" onclick="sendQuickChat('How much is wall cladding per sqm?')">"How much per sqm?"</button>
+        <button class="chip" onclick="sendQuickChat('Do you also install?')">"Do you install?"</button>
+        <button class="chip chip-warn" onclick="sendQuickChat('no')">"no"</button>
+        <button class="chip chip-hot" onclick="sendQuickChat('I have 95 sqm of wall cladding in Kira, come measure and bring samples')">"95 sqm in Kira, come measure!"</button>
+      </div>
+
+      <!-- CONVERSATION CONTEXT MEMORY BAR -->
+      <div class="wa-memory-bar" id="waMemoryBar">
+        <span><strong>Context:</strong></span>
+        <span class="mem-tag" id="memStage">Stage: new</span>
+        <span class="mem-tag" id="memNeed">Need: ?</span>
+        <span class="mem-tag" id="memLoc">Site: ?</span>
+        <span class="mem-tag" id="memSqm">Size: ?</span>
+      </div>
+
+      <!-- WHATSAPP MESSAGES STREAM -->
+      <div class="wa-messages" id="waMessages"></div>
+
+      <!-- INPUT BOX -->
+      <form class="wa-input-bar" onsubmit="submitSimChat(event)">
+        <input
+          type="text"
+          id="waInput"
+          placeholder="Type any message as the client (e.g. 'which stone do u have', 'how much', 'wall cladding in Kira')..."
+          autocomplete="off"
+        />
+        <button type="submit" class="wa-send-btn">Send</button>
+      </form>
+    </aside>
+  </main>
+
+  <!-- BOTTOM DESK QUEUES: SARAH & DAVID WHATSAPP LEADS | EMMA B2B EMAILS | SALES MANAGER HOT DEALS -->
+  <section class="queues-grid">
+    <div class="queue-card">
+      <div class="queue-head">
+        <div>
+          <h3>Desk 1 &amp; 2: Sarah's Site Leads → David's WhatsApp Queue</h3>
+          <p>Property agents &amp; builders found by Sarah. Sent from <strong id="queueDispatcherNum">Dispatcher WhatsApp</strong>.</p>
+        </div>
+        <button class="btn btn-xs" onclick="triggerDispatch()">Pitch Next 5</button>
+      </div>
+      <div class="queue-list" id="waLeadsList"></div>
+    </div>
+
+    <div class="queue-card">
+      <div class="queue-head">
+        <div>
+          <h3>Desk 3: Emma's B2B Email Outreach (Architects &amp; Contractors)</h3>
+          <p>Short, professional B2B stone supply &amp; installation emails sent from your Gmail SMTP.</p>
+        </div>
+        <button class="btn btn-xs" onclick="triggerEmail()">Send Batch</button>
+      </div>
+      <div class="queue-list" id="emailLeadsList"></div>
+    </div>
+
+    <div class="queue-card queue-card-hot">
+      <div class="queue-head">
+        <div>
+          <h3>Desk 5: Sales Manager Hot Deals &amp; Escalations</h3>
+          <p>Clients qualified by Grace who want a site measurement, samples, or quote. Reports to <strong id="queueManagerNum">Sales Manager</strong>.</p>
+        </div>
+      </div>
+      <div class="queue-list" id="hotDealsList"></div>
+    </div>
+  </section>
+
+  <!-- SETTINGS MODAL (PERSONAL WHATSAPP QR LINK, NUMBERS & GMAIL SMTP) -->
+  <div class="modal-backdrop" id="settingsModal" style="display: none;">
+    <div class="modal-box">
+      <div class="modal-head">
+        <h3>Office Numbers, Personal WhatsApp Link &amp; Gmail Setup</h3>
+        <button class="modal-close" onclick="closeSettingsModal()">✕</button>
+      </div>
+
+      <form onsubmit="saveSettings(event)" class="modal-form">
+        <!-- PERSONAL WHATSAPP DIRECT LINK BOX -->
+        <div class="wa-link-panel">
+          <div class="wa-link-info">
+            <h4>1. Link Personal/Work WhatsApp (Automatic Pitches &amp; Replies)</h4>
+            <p id="waLinkStatusText">
+              Link David's personal WhatsApp via QR code so David automatically sends pitches and Grace automatically replies to clients from that number.
+            </p>
+            <div class="wa-link-buttons">
+              <button type="button" class="btn btn-xs btn-primary" onclick="startPersonalWaLink()">
+                Generate WhatsApp QR Code
+              </button>
+              <button type="button" class="btn btn-xs" onclick="disconnectPersonalWa()">
+                Disconnect
+              </button>
+            </div>
+          </div>
+          <div class="wa-qr-box" id="waQrBox">
+            <span>Click "Generate QR" to scan from WhatsApp → Linked Devices</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>David — WhatsApp Dispatcher Personal/Work Number</label>
+          <input type="text" id="setDispatcherPhone" placeholder="+2567..." required />
+          <small>The personal/work WhatsApp number David uses to contact leads discovered by Sarah.</small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Sales Manager / Boss Name</label>
+            <input type="text" id="setManagerName" placeholder="Sales Manager" />
+          </div>
+          <div class="form-group">
+            <label>Sales Manager / Boss WhatsApp Number</label>
+            <input type="text" id="setManagerPhone" placeholder="+2567..." required />
+          </div>
+        </div>
+        <small class="row-hint">Grace immediately sends hot lead reports (site visits, measurements &amp; quotes) to this Boss number.</small>
+
+        <hr class="modal-divider" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Emma — Sender Gmail Address (Used to Email Clients)</label>
+            <input type="email" id="setSmtpEmail" placeholder="yourbusiness@gmail.com" />
+          </div>
+          <div class="form-group">
+            <label>Gmail 16-Character App Password</label>
+            <input type="password" id="setSmtpPass" placeholder="xxxx xxxx xxxx xxxx (leave blank to keep)" />
+          </div>
+        </div>
+        <small class="row-hint">Emma uses this Gmail account directly via SMTP to send B2B stone supply emails to architects &amp; contractors.</small>
+
+        <div class="form-group">
+          <label>Sales Manager Email (for Hot Lead Email Copies)</label>
+          <input type="email" id="setManagerEmail" placeholder="manager@signaturestones.ug" />
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" class="btn btn-subtle" onclick="closeSettingsModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Settings</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="pa-wardrobe.js"></script>
+  <script src="pixel-office.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

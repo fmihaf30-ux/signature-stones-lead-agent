@@ -1,0 +1,76 @@
+{
+  "business": {
+    "name": "Signature Stones Uganda",
+    "handle": "@signaturestonesuganda",
+    "tiktok": "https://www.tiktok.com/@signaturestonesuganda",
+    "location": "Kampala, Uganda (Coverage: Greater Kampala, Wakiso, Mukono, Entebbe & Countrywide)",
+    "phone": "+256751567860",
+    "bossPhone": "+256751567860",
+    "bossTitle": "Sales Director & Project Manager",
+    "slogan": "Premium Natural Stone Cladding, Compound Pavers & Architectural Masonry"
+  },
+  "products": [
+    {
+      "id": "wall_cladding",
+      "name": "Natural Wall Cladding Stones",
+      "varieties": ["Golden Quartzite", "Black Slate", "Rustic Split-Face", "Off-White Limestone", "Grey Granite Veneer", "Strip Wall Cladding"],
+      "applications": "Perimeter walls, gate pillars, house exterior facades, balconies, outdoor feature pillars",
+      "benefits": "Zero-maintenance, weather-resistant, never fades, eliminates periodic exterior painting costs",
+      "priceSupplyOnly": "UGX 45,000 - 65,000 per sq meter",
+      "priceSupplyInstall": "UGX 80,000 - 110,000 per sq meter (includes heavy-duty bonding adhesive, skilled masonry fitting, joint grouting, and protective clear stone sealant)"
+    },
+    {
+      "id": "compound_pavers",
+      "name": "Cobblestones & Compound Pavers",
+      "varieties": ["Hand-cut Granite Cobblestones", "Basalt Setts", "Garden Stepping Stones", "Walkway Flagstones"],
+      "applications": "Driveways, compound parking, garden walkways, swimming pool surrounds, commercial parking lots",
+      "benefits": "Handles heavy vehicle traffic without cracking, non-slip textured surface, natural rustic aesthetics",
+      "priceSupplyOnly": "UGX 50,000 - 70,000 per sq meter",
+      "priceSupplyInstall": "UGX 85,000 - 120,000 per sq meter (includes sand/cement bedding base and precision interlocking installation)"
+    },
+    {
+      "id": "interior_features",
+      "name": "Interior Feature Wall Stones",
+      "varieties": ["3D Textured Ledge Stone", "Slim Split-Face Slate", "Indoor Waterfall Stones", "Fireplace Cladding"],
+      "applications": "Living room TV console feature walls, dining accent walls, reception backdrops, bar counters, indoor fireplaces",
+      "benefits": "Adds modern luxury character and natural organic texture to high-end indoor living spaces",
+      "priceSupplyInstall": "UGX 90,000 - 130,000 per sq meter"
+    },
+    {
+      "id": "countertops",
+      "name": "Custom Granite & Quartz Countertops",
+      "varieties": ["Black Galaxy Granite", "Absolute Black", "Sparkle White Quartz", "Carrara Quartz", "Tan Brown Granite"],
+      "applications": "Kitchen islands, breakfast bars, bathroom vanity tops, restaurant counters",
+      "benefits": "Heat-resistant, scratch-proof, seamless polished edge beveling, stain-resistant sealing",
+      "priceSupplyInstall": "From UGX 280,000 - 450,000 per running metre installed (with sink cutouts)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you do installation or only supply materials?",
+      "answer": "We provide both! We supply quality natural stones directly from our quarry and yards, and our experienced master stone masons carry out complete on-site installation, grouting, and stone sealant finishing."
+    },
+    {
+      "question": "Can you bring stone samples to my construction site?",
+      "answer": "Yes! Our project consultant visits your construction site anywhere in Greater Kampala or Wakiso with our physical stone sample box so you can see and feel the textures against your walls before deciding."
+    },
+    {
+      "question": "How do you calculate the price for my project?",
+      "answer": "We price per square meter (m²) for wall cladding and compound pavers. Once our technician takes laser measurements of your wall area or you share your architectural elevations, we provide a free itemized quotation."
+    },
+    {
+      "question": "Do you deliver stones outside Kampala?",
+      "answer": "Yes, we supply and install stones countrywide across Uganda (Entebbe, Jinja, Mbarara, Masaka, Gulu, Fort Portal, Mbale, etc.). Transportation is arranged directly to your site."
+    },
+    {
+      "question": "Do you work with contractors, builders, and architects?",
+      "answer": "Yes! We run a dedicated B2B Trade Partner program offering discounted bulk rates and a 10% referral commission for building contractors, site foremen, architects, and interior designers."
+    }
+  ],
+  "escalationTriggers": [
+    "site visit", "come measure", "measure my", "quote", "quotation", "invoice", "proforma",
+    "call me", "my number is", "phone number", "speak to", "manager", "boss", "director",
+    "square meters", "sqm", "ready to start", "deposit", "location is", "how much for 100",
+    "come to my site", "where is your office", "where is your yard", "let us meet"
+  ]
+}
