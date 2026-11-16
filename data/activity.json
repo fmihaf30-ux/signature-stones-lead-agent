@@ -1,1202 +1,1202 @@
 [
   {
-    "agent": "Sarah",
-    "message": "Kireka: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:25"
-  },
-  {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "10:24"
+    "time": "22:30"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "10:22"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Bweyogerere: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:22"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Kitende: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:21"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Mukono: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:21"
-  },
-  {
-    "agent": "Office",
-    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
-    "kind": "info",
-    "time": "10:20"
-  },
-  {
-    "agent": "Office",
-    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
-    "kind": "info",
-    "time": "10:18"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Seeta: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:07"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Makindye: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:07"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Buziga: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:07"
-  },
-  {
-    "agent": "Office",
-    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
-    "kind": "info",
-    "time": "10:05"
-  },
-  {
-    "agent": "Office",
-    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
-    "kind": "info",
-    "time": "10:03"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Entebbe: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:02"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Kisaasi: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:02"
-  },
-  {
-    "agent": "Sarah",
-    "message": "Ntinda: 0 new agents with new-build listings",
-    "kind": "scout",
-    "time": "10:02"
-  },
-  {
-    "agent": "Office",
-    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
-    "kind": "info",
-    "time": "10:02"
-  },
-  {
-    "agent": "Office",
-    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
-    "kind": "info",
-    "time": "10:00"
+    "time": "22:28"
   },
   {
     "agent": "Sarah",
     "message": "Bukoto: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:59"
+    "time": "22:27"
   },
   {
     "agent": "Sarah",
     "message": "Naguru: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:59"
+    "time": "22:27"
   },
   {
     "agent": "Sarah",
     "message": "Kololo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:59"
+    "time": "22:27"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:59"
+    "time": "22:27"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:57"
+    "time": "22:25"
   },
   {
     "agent": "Sarah",
     "message": "Munyonyo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:56"
+    "time": "22:25"
   },
   {
     "agent": "Sarah",
     "message": "Muyenga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:56"
+    "time": "22:24"
   },
   {
     "agent": "Sarah",
     "message": "Lubowa: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:56"
+    "time": "22:24"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:56"
+    "time": "22:24"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:54"
+    "time": "22:22"
   },
   {
     "agent": "Sarah",
     "message": "Gayaza: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:53"
+    "time": "22:21"
   },
   {
     "agent": "Sarah",
     "message": "Namugongo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:53"
+    "time": "22:21"
   },
   {
     "agent": "Sarah",
     "message": "Naalya: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:53"
+    "time": "22:21"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:53"
+    "time": "22:21"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:51"
+    "time": "22:19"
   },
   {
     "agent": "Sarah",
     "message": "Kyanja: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:50"
+    "time": "22:18"
   },
   {
     "agent": "Sarah",
     "message": "Najjera: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:50"
+    "time": "22:18"
   },
   {
     "agent": "Sarah",
     "message": "Kira: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:50"
+    "time": "22:18"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:50"
+    "time": "22:18"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:48"
+    "time": "22:16"
   },
   {
     "agent": "Sarah",
     "message": "Wakiso: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:47"
+    "time": "22:15"
   },
   {
     "agent": "Sarah",
     "message": "Matugga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:47"
+    "time": "22:15"
   },
   {
     "agent": "Sarah",
     "message": "Kireka: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:47"
+    "time": "22:15"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:47"
+    "time": "22:15"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:37"
+    "time": "22:13"
   },
   {
     "agent": "Sarah",
     "message": "Bweyogerere: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:37"
+    "time": "22:12"
   },
   {
     "agent": "Sarah",
     "message": "Kitende: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:37"
+    "time": "22:12"
   },
   {
     "agent": "Sarah",
     "message": "Mukono: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:37"
+    "time": "22:12"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:37"
-  },
-  {
-    "agent": "Office",
-    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
-    "kind": "info",
-    "time": "09:34"
+    "time": "22:12"
   },
   {
     "agent": "Sarah",
     "message": "Seeta: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:34"
+    "time": "22:11"
   },
   {
     "agent": "Sarah",
     "message": "Makindye: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:34"
+    "time": "22:11"
   },
   {
     "agent": "Sarah",
     "message": "Buziga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:34"
+    "time": "22:11"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:34"
+    "time": "22:10"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:31"
+    "time": "01:04"
   },
   {
     "agent": "Sarah",
     "message": "Entebbe: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:31"
+    "time": "01:03"
   },
   {
     "agent": "Sarah",
     "message": "Kisaasi: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:31"
+    "time": "01:03"
   },
   {
     "agent": "Sarah",
     "message": "Ntinda: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:31"
+    "time": "01:03"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:31"
+    "time": "01:02"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:28"
+    "time": "01:00"
   },
   {
     "agent": "Sarah",
     "message": "Bukoto: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:28"
+    "time": "00:59"
   },
   {
     "agent": "Sarah",
     "message": "Naguru: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:28"
+    "time": "00:59"
   },
   {
     "agent": "Sarah",
     "message": "Kololo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:28"
+    "time": "00:58"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:28"
+    "time": "00:58"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:25"
+    "time": "00:55"
   },
   {
     "agent": "Sarah",
     "message": "Munyonyo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:25"
+    "time": "00:55"
   },
   {
     "agent": "Sarah",
     "message": "Muyenga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:25"
+    "time": "00:55"
   },
   {
     "agent": "Sarah",
     "message": "Lubowa: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:25"
+    "time": "00:55"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:25"
+    "time": "00:55"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:22"
+    "time": "00:52"
   },
   {
     "agent": "Sarah",
     "message": "Gayaza: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:22"
+    "time": "00:52"
   },
   {
     "agent": "Sarah",
     "message": "Namugongo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:21"
+    "time": "00:52"
   },
   {
     "agent": "Sarah",
     "message": "Naalya: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:21"
+    "time": "00:52"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:19"
+    "time": "00:52"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:17"
+    "time": "00:49"
   },
   {
     "agent": "Sarah",
     "message": "Kyanja: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:17"
+    "time": "00:49"
   },
   {
     "agent": "Sarah",
     "message": "Najjera: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:16"
+    "time": "00:49"
   },
   {
     "agent": "Sarah",
     "message": "Kira: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:16"
+    "time": "00:46"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:16"
+    "time": "00:46"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:13"
+    "time": "00:43"
   },
   {
     "agent": "Sarah",
     "message": "Wakiso: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:13"
+    "time": "00:43"
   },
   {
     "agent": "Sarah",
     "message": "Matugga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:13"
+    "time": "00:43"
   },
   {
     "agent": "Sarah",
     "message": "Kireka: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:13"
+    "time": "00:42"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:13"
+    "time": "00:42"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:10"
+    "time": "00:40"
   },
   {
     "agent": "Sarah",
     "message": "Bweyogerere: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:10"
+    "time": "00:39"
   },
   {
     "agent": "Sarah",
     "message": "Kitende: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:10"
+    "time": "00:39"
   },
   {
     "agent": "Sarah",
     "message": "Mukono: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:10"
+    "time": "00:39"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:10"
+    "time": "00:38"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:07"
+    "time": "00:36"
   },
   {
     "agent": "Sarah",
     "message": "Seeta: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:07"
+    "time": "00:35"
   },
   {
     "agent": "Sarah",
     "message": "Makindye: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:07"
+    "time": "00:35"
   },
   {
     "agent": "Sarah",
     "message": "Buziga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:07"
+    "time": "00:35"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:07"
+    "time": "00:34"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:04"
+    "time": "00:32"
   },
   {
     "agent": "Sarah",
     "message": "Entebbe: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:04"
+    "time": "00:32"
   },
   {
     "agent": "Sarah",
     "message": "Kisaasi: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:04"
+    "time": "00:31"
   },
   {
     "agent": "Sarah",
     "message": "Ntinda: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:04"
+    "time": "00:30"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "09:04"
+    "time": "00:29"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "09:01"
+    "time": "00:27"
   },
   {
     "agent": "Sarah",
     "message": "Bukoto: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:01"
+    "time": "00:26"
   },
   {
     "agent": "Sarah",
     "message": "Naguru: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "09:01"
+    "time": "00:26"
   },
   {
     "agent": "Sarah",
     "message": "Kololo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:58"
+    "time": "00:26"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:58"
+    "time": "00:25"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:55"
+    "time": "00:23"
   },
   {
     "agent": "Sarah",
     "message": "Munyonyo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:55"
+    "time": "00:23"
   },
   {
     "agent": "Sarah",
     "message": "Muyenga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:55"
+    "time": "00:22"
   },
   {
     "agent": "Sarah",
     "message": "Lubowa: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:55"
+    "time": "00:22"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:55"
+    "time": "00:22"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:52"
+    "time": "00:19"
   },
   {
     "agent": "Sarah",
     "message": "Gayaza: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:52"
+    "time": "00:19"
   },
   {
     "agent": "Sarah",
     "message": "Namugongo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:52"
+    "time": "00:18"
   },
   {
     "agent": "Sarah",
     "message": "Naalya: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:52"
+    "time": "00:17"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:52"
+    "time": "00:17"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:49"
+    "time": "00:15"
   },
   {
     "agent": "Sarah",
     "message": "Kyanja: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:49"
+    "time": "00:15"
   },
   {
     "agent": "Sarah",
     "message": "Najjera: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:49"
+    "time": "00:14"
   },
   {
     "agent": "Sarah",
     "message": "Kira: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:49"
+    "time": "00:14"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:49"
+    "time": "00:14"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:46"
+    "time": "00:12"
   },
   {
     "agent": "Sarah",
     "message": "Wakiso: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:46"
+    "time": "00:11"
   },
   {
     "agent": "Sarah",
     "message": "Matugga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:46"
+    "time": "00:11"
   },
   {
     "agent": "Sarah",
     "message": "Kireka: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:46"
+    "time": "00:11"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:46"
+    "time": "00:11"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:43"
+    "time": "00:09"
   },
   {
     "agent": "Sarah",
     "message": "Bweyogerere: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:43"
+    "time": "00:09"
   },
   {
     "agent": "Sarah",
     "message": "Kitende: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:43"
+    "time": "00:08"
   },
   {
     "agent": "Sarah",
     "message": "Mukono: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:43"
+    "time": "00:06"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:43"
+    "time": "00:05"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "08:40"
+    "time": "00:03"
   },
   {
     "agent": "Sarah",
     "message": "Seeta: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:40"
+    "time": "00:03"
   },
   {
     "agent": "Sarah",
     "message": "Makindye: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:40"
+    "time": "00:02"
   },
   {
     "agent": "Sarah",
     "message": "Buziga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "08:40"
+    "time": "00:02"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "08:40"
+    "time": "00:02"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:58"
+    "time": "00:00"
   },
   {
     "agent": "Sarah",
     "message": "Entebbe: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:57"
+    "time": "00:00"
   },
   {
     "agent": "Sarah",
     "message": "Kisaasi: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:57"
+    "time": "23:59"
   },
   {
     "agent": "Sarah",
     "message": "Ntinda: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:57"
+    "time": "23:59"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:57"
+    "time": "23:59"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:55"
+    "time": "23:57"
   },
   {
     "agent": "Sarah",
     "message": "Bukoto: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:55"
+    "time": "23:57"
   },
   {
     "agent": "Sarah",
     "message": "Naguru: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:55"
+    "time": "23:56"
   },
   {
     "agent": "Sarah",
     "message": "Kololo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:54"
+    "time": "23:56"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:54"
+    "time": "23:55"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:52"
+    "time": "23:53"
   },
   {
     "agent": "Sarah",
     "message": "Munyonyo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:51"
+    "time": "23:53"
   },
   {
     "agent": "Sarah",
     "message": "Muyenga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:51"
+    "time": "23:53"
   },
   {
     "agent": "Sarah",
     "message": "Lubowa: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:51"
+    "time": "23:53"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:51"
+    "time": "23:52"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:49"
+    "time": "23:50"
   },
   {
     "agent": "Sarah",
     "message": "Gayaza: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:48"
+    "time": "23:50"
   },
   {
     "agent": "Sarah",
     "message": "Namugongo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:48"
+    "time": "23:50"
   },
   {
     "agent": "Sarah",
     "message": "Naalya: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:48"
+    "time": "23:50"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:48"
+    "time": "23:49"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:46"
+    "time": "23:47"
   },
   {
     "agent": "Sarah",
     "message": "Kyanja: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:45"
+    "time": "23:47"
   },
   {
     "agent": "Sarah",
     "message": "Najjera: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:45"
+    "time": "23:47"
   },
   {
     "agent": "Sarah",
     "message": "Kira: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:45"
+    "time": "23:47"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:45"
+    "time": "23:46"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:43"
+    "time": "23:43"
   },
   {
     "agent": "Sarah",
     "message": "Wakiso: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:42"
+    "time": "23:43"
   },
   {
     "agent": "Sarah",
     "message": "Matugga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:42"
+    "time": "23:43"
   },
   {
     "agent": "Sarah",
     "message": "Kireka: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:42"
+    "time": "23:43"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:42"
+    "time": "23:43"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:40"
+    "time": "23:40"
   },
   {
     "agent": "Sarah",
     "message": "Bweyogerere: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:39"
+    "time": "23:40"
   },
   {
     "agent": "Sarah",
     "message": "Kitende: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:39"
+    "time": "23:40"
   },
   {
     "agent": "Sarah",
     "message": "Mukono: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:39"
+    "time": "23:40"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:39"
+    "time": "23:40"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:37"
+    "time": "23:37"
   },
   {
     "agent": "Sarah",
     "message": "Seeta: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:36"
+    "time": "23:37"
   },
   {
     "agent": "Sarah",
     "message": "Makindye: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:36"
+    "time": "23:37"
   },
   {
     "agent": "Sarah",
     "message": "Buziga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:36"
+    "time": "23:37"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:36"
+    "time": "23:37"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:34"
+    "time": "23:34"
   },
   {
     "agent": "Sarah",
     "message": "Entebbe: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:33"
+    "time": "23:34"
   },
   {
     "agent": "Sarah",
     "message": "Kisaasi: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:33"
+    "time": "23:34"
   },
   {
     "agent": "Sarah",
     "message": "Ntinda: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:33"
+    "time": "23:34"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:33"
+    "time": "23:34"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:31"
+    "time": "23:31"
   },
   {
     "agent": "Sarah",
     "message": "Bukoto: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:30"
+    "time": "23:31"
   },
   {
     "agent": "Sarah",
     "message": "Naguru: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:30"
+    "time": "23:31"
   },
   {
     "agent": "Sarah",
     "message": "Kololo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:30"
+    "time": "23:31"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:30"
+    "time": "23:31"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:28"
+    "time": "23:28"
   },
   {
     "agent": "Sarah",
     "message": "Munyonyo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:27"
+    "time": "23:28"
   },
   {
     "agent": "Sarah",
     "message": "Muyenga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:27"
+    "time": "23:28"
   },
   {
     "agent": "Sarah",
     "message": "Lubowa: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:27"
+    "time": "23:28"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:27"
+    "time": "23:28"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:25"
+    "time": "23:25"
   },
   {
     "agent": "Sarah",
     "message": "Gayaza: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:24"
+    "time": "23:25"
   },
   {
     "agent": "Sarah",
     "message": "Namugongo: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:24"
+    "time": "23:25"
   },
   {
     "agent": "Sarah",
     "message": "Naalya: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:24"
+    "time": "23:25"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:24"
+    "time": "23:25"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:22"
+    "time": "23:22"
   },
   {
     "agent": "Sarah",
     "message": "Kyanja: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:21"
+    "time": "23:22"
   },
   {
     "agent": "Sarah",
     "message": "Najjera: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:21"
+    "time": "23:22"
   },
   {
     "agent": "Sarah",
     "message": "Kira: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:21"
+    "time": "23:22"
   },
   {
     "agent": "Office",
     "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
     "kind": "info",
-    "time": "07:21"
+    "time": "23:22"
   },
   {
     "agent": "Office",
     "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
     "kind": "info",
-    "time": "07:19"
+    "time": "23:19"
   },
   {
     "agent": "Sarah",
     "message": "Wakiso: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:18"
+    "time": "23:19"
   },
   {
     "agent": "Sarah",
     "message": "Matugga: 0 new agents with new-build listings",
     "kind": "scout",
-    "time": "07:18"
+    "time": "23:19"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Kireka: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:19"
+  },
+  {
+    "agent": "Office",
+    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
+    "kind": "info",
+    "time": "23:19"
+  },
+  {
+    "agent": "Office",
+    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
+    "kind": "info",
+    "time": "23:16"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Bweyogerere: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:16"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Kitende: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:10"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Mukono: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:09"
+  },
+  {
+    "agent": "Office",
+    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
+    "kind": "info",
+    "time": "23:08"
+  },
+  {
+    "agent": "Office",
+    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
+    "kind": "info",
+    "time": "23:06"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Seeta: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:05"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Makindye: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:03"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Buziga: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "23:00"
+  },
+  {
+    "agent": "Office",
+    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
+    "kind": "info",
+    "time": "22:58"
+  },
+  {
+    "agent": "Office",
+    "message": "Staff taking a short coffee & lounge break before the next scouting shift.",
+    "kind": "info",
+    "time": "22:55"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Entebbe: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "22:55"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Kisaasi: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "22:53"
+  },
+  {
+    "agent": "Sarah",
+    "message": "Ntinda: 0 new agents with new-build listings",
+    "kind": "scout",
+    "time": "22:50"
+  },
+  {
+    "agent": "Office",
+    "message": "Autonomous shift started: Sarah (Scout) → David (WhatsApp) & Emma (Email) → Grace (Assistant)",
+    "kind": "info",
+    "time": "22:49"
   }
 ]

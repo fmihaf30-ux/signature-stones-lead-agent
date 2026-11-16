@@ -24,6 +24,8 @@ let waStatus = {
   lastError: null
 };
 let inboundHandler = null;
+// Anti-ban safeguard: track consecutive unanswered outbound messages per number (max 3 before waiting for client reply)
+const unansweredByPhone = new Map();
 
 function setInboundHandler(fn) {
   inboundHandler = fn;
@@ -95,10 +97,13 @@ async function connectPersonalWhatsApp() {
         if (!text.trim()) continue;
         const phone = '+' + digits(jid.split('@')[0]);
         const name = m.pushName || 'WhatsApp Client';
+        // Client replied -> reset unanswered counter to 0
+        unansweredByPhone.set(digits(phone), 0);
         try {
           const out = await inboundHandler({ phone, text, name });
           if (out && out.reply && sock && waStatus.state === 'connected') {
             await sock.sendMessage(jid, { text: out.reply });
+            unansweredByPhone.set(digits(phone), 1);
           }
         } catch (err) {
           log('Grace', `Auto-reply error for ${phone}: ${err.message}`, 'warn');
@@ -145,10 +150,16 @@ async function callGraph(body) {
 /** Sends a WhatsApp text message via Linked Personal WhatsApp -> or Cloud API -> or wa.me link */
 async function sendText(phone, text) {
   const d = digits(phone);
-  // 1. Linked Personal WhatsApp
+  const unanswered = unansweredByPhone.get(d) || 0;
+  if (unanswered >= 3) {
+    log('Grace', `Paused auto-send to ${phone} after 3 unanswered messages until client replies.`, 'info');
+    return { sent: false, paused: true, link: waLink(phone, text) };
+  }
+  // 1. Linked Personal WhatsApp (for warm/inbound conversations & Boss alerts)
   if (sock && waStatus.state === 'connected') {
     try {
       await sock.sendMessage(`${d}@s.whatsapp.net`, { text });
+      unansweredByPhone.set(d, unanswered + 1);
       return { sent: true, via: 'personal_wa' };
     } catch (err) {
       log('David', `Personal WA send error (${phone}): ${err.message}`, 'warn');
@@ -159,6 +170,7 @@ async function sendText(phone, text) {
   if (hasCloudApi(c)) {
     try {
       await callGraph({ to: d, type: 'text', text: { body: text } });
+      unansweredByPhone.set(d, unanswered + 1);
       return { sent: true, via: 'cloud_api' };
     } catch (err) {
       return { sent: false, error: err.message, link: waLink(phone, text) };
@@ -168,19 +180,19 @@ async function sendText(phone, text) {
   return { sent: false, link: waLink(phone, text) };
 }
 
-/** Sends David's outreach pitch via Linked Personal WhatsApp -> or Cloud API -> or wa.me link */
+/**
+ * Sends David's first-touch outreach pitch:
+ * Uses Meta Cloud API or safe 1-Click wa.me links by default (preventing cold Baileys
+ * first-touch blasts from risking a WhatsApp number ban), while Grace handles all
+ * replies automatically once the conversation starts!
+ */
 async function sendPitch(phone, text, params = []) {
   const d = digits(phone);
-  // 1. Linked Personal WhatsApp sends plain text directly from David's personal number!
-  if (sock && waStatus.state === 'connected') {
-    try {
-      await sock.sendMessage(`${d}@s.whatsapp.net`, { text });
-      return { sent: true, via: 'personal_wa' };
-    } catch (err) {
-      log('David', `Personal WA pitch error (${phone}): ${err.message}`, 'warn');
-    }
+  const unanswered = unansweredByPhone.get(d) || 0;
+  if (unanswered >= 3) {
+    return { sent: false, paused: true, link: waLink(phone, text) };
   }
-  // 2. Meta Cloud API template
+  // 1. Meta Cloud API template (safe for cold outreach)
   const c = getConfig();
   if (hasCloudApi(c) && c.waTemplate) {
     try {
@@ -193,12 +205,13 @@ async function sendPitch(phone, text, params = []) {
           components: params.length ? [{ type: 'body', parameters: params.map(p => ({ type: 'text', text: String(p) })) }] : []
         }
       });
+      unansweredByPhone.set(d, unanswered + 1);
       return { sent: true, via: 'cloud_api' };
     } catch (err) {
       return { sent: false, error: err.message, link: waLink(phone, text) };
     }
   }
-  // 3. 1-Click wa.me link fallback
+  // 2. Safe 1-Click wa.me link for first-touch outreach (protects QR-linked number from cold-blast bans)
   return { sent: false, link: waLink(phone, text) };
 }
 
