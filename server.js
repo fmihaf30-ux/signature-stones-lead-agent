@@ -1,5 +1,8 @@
 const express = require('express');
 const path = require('path');
+
+process.on('uncaughtException', err => console.error('[Office Guard] Uncaught error:', err.message));
+process.on('unhandledRejection', err => console.error('[Office Guard] Unhandled rejection:', err?.message || err));
 const { getConfig, hasCloudApi, hasSmtp, updateEnv } = require('./config');
 const { load, save, emit, eventsSince, lastEventId, log, sleep } = require('./store');
 const { runScout } = require('./agents/sarah_scout');
